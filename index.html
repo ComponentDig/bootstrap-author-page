@@ -1,11 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <style>
+        .container {
+            border: 1px solid green;
+        }
+    </style>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Författare</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1 class="text-center">Sofie Sarenbrant</h1>
+        <div class="row">
+            <div class="col-md-8">
+                <p>Sofie Sarenbrant är en svensk journalist och författare, hon debuterade 2010 med boken Vecka 36.</p>
+                <p>
+                    Sarenbrant är mest känd för sin bokserie om kriminalinspektören Emma Sköld som introducerades i
+                    boken Vila i
+                    frid. Hon ville att huvudpersonen skulle vara en ung och ambitiös kvinna till skillnad från
+                    den stereotypa bilden av en polis som alkholiserad och deprimerad.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <img src="https://static.wixstatic.com/media/3557f2_3476abdf8b1b482d9ec2b3bf3a4ca108~mv2_d_1358_1969_s_2.jpg/v1/fill/w_873,h_915,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/3557f2_3476abdf8b1b482d9ec2b3bf3a4ca108~mv2_d_1358_1969_s_2.jpg"
+                    alt="" class="img-thumbnail" >
+            </div>
+        </div>
+        <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="https://image.bokus.com/images/9789189585874_200x_parasiten"
+                        class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Parasiten</h5>
+                        <p class="card-text">
+                            Brända kvarlevor av en kropp hittas en varm sommardag på Drottningholm. Vid offret
+                            finns en dödslista. Kriminalinspektör Emma Sköld är det sista namnet av fem.
+
+                            Parallellt med utredningen rullas ett tjugo år gammalt fall upp, där en mamma åkte
+                            till akuten med sitt spädbarn och hamnade i häktet. Vad har det förflutna med mordet
+                            att göra? Det är upp till Emma med kolleger att stoppa förövaren innan fler råkar
+                            illa ut. Och slutligen även hon själv.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
